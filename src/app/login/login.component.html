@@ -1,0 +1,31 @@
+<h1 class="fs-3 mt-3 ms-3">
+    Hi {{data}}</h1>
+
+<marquee><h6>Welcome to Net banking with us!</h6></marquee>
+<div class="full container ">
+<form action="">
+
+
+<div class="row container">
+    
+<div id="login-div"  class="container login-left form-control  text-center col">
+    <h6 class="sign text-left">Sign In</h6>
+    <img id="img" class="bg-transparent" src="https://i.postimg.cc/BQ179Ps9/avatar.jpg" alt="">
+   <div> <input name="acno" (change)="acnoChange($event)" id="input-acno" type="text" [placeholder]="pdata" class="mt-2 p-2 "></div>
+    <div>
+        <input (change)="pwdChange($event)" name="password" id="psw" type="password" placeholder="enter password" class="mt-2 p-2 "></div>
+    <div><button (click)="login()" id="log" type="button" class="btn  mt-2 p-2">LogIn</button></div>
+<label for="">Don't have account?
+   <a href="" class="text" style="text-decoration: none;color:#333;"> create account</a></label>
+</div>
+
+
+<div id="pic" class="container mt-4 p-2 login-right col">  
+     <img src="https://i.postimg.cc/sXSMs8qq/bnk.gif" height="300px" width="400px" ></div>
+     </div>
+     
+     </form>
+    </div>
+
+
+

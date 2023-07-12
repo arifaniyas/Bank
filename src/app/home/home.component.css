@@ -1,0 +1,15 @@
+.btn{
+    background-color:blue;
+    color:white;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+    border:none;
+    height:70px;
+
+
+}
+
+.row{
+    display:flex;
+}

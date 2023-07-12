@@ -1,0 +1,20 @@
+.btngrp{
+    margin-left: 50%;
+}
+#btn-check{
+    color:white;
+    background-color: blue;
+}
+#btn-group{
+    border-radius:  5px;
+}
+.btn{
+    background-color: blue;
+    border-radius: 5px;
+    color:white;
+    font-weight: 700px;
+    padding:2px;
+    margin-bottom: 6px;
+    margin-left: 10px;
+}
+

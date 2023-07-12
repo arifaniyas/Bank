@@ -1,0 +1,28 @@
+#img{
+    width: 100px;
+    height:100px;
+
+}
+#log{
+    color:white;
+    background-color: blue;
+}
+#pic{
+    margin-left: 30px;
+    
+}
+#input-acno{
+    width: 50%;
+    border-radius: 5px;
+    height: fit-content;
+    border:none;
+    box-shadow: inset;
+}
+#psw{
+    width: 50%;
+    border-radius: 5px;
+    height: fit-content;
+    border:none;
+    box-shadow: inset;  
+}
+
