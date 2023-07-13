@@ -9,8 +9,18 @@ export class LoginComponent {
 data="happy Banking with Us"
 pdata="enter the  account number"
 acno:any=""
-login(){
-  alert("login clicked")
+psw:string=""
+login(a:any,b:any){
+  //alert("login clicked")
+  // console.log(a.value);
+  // console.log(b.value);
+  this.acno=a.value
+  this.psw=b.value
+  console.log(this.acno);
+  console.log(this.psw);
+  
+  
+  
 }
 
 acnoChange(event:any){

@@ -11,10 +11,10 @@
 <div id="login-div"  class="container login-left form-control  text-center col">
     <h6 class="sign text-left">Sign In</h6>
     <img id="img" class="bg-transparent" src="https://i.postimg.cc/BQ179Ps9/avatar.jpg" alt="">
-   <div> <input name="acno" (change)="acnoChange($event)" id="input-acno" type="text" [placeholder]="pdata" class="mt-2 p-2 "></div>
+   <div> <input #acno name="acno"  id="acno" type="text" [placeholder]="pdata" class="mt-2 p-2 "></div>
     <div>
-        <input (change)="pwdChange($event)" name="password" id="psw" type="password" placeholder="enter password" class="mt-2 p-2 "></div>
-    <div><button (click)="login()" id="log" type="button" class="btn  mt-2 p-2">LogIn</button></div>
+        <input #psw name="password" id="psw" type="password" placeholder="enter password" class="mt-2 p-2 "></div>
+    <div><button (click)="login(acno,psw)" id="log" type="submit" class="btn  mt-2 p-2">LogIn</button></div>
 <label for="">Don't have account?
    <a href="" class="text" style="text-decoration: none;color:#333;"> create account</a></label>
 </div>
